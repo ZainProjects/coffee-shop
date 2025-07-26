@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f5f2;
+  color: #4b3832;
+}
+
+header {
+  background: #4b3832;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('assets/coffee-bg.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #d2691e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #4b3832;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+@media(max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
